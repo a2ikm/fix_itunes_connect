@@ -1,0 +1,13 @@
+{
+  "name": "Fix iTunes Connect",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Fix typos in iTunes Connect",
+  "content_scripts": [
+    {
+      "matches": ["http://example.com/*"],
+      "js": ["jquery-1.11.1.min.js", "script.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
